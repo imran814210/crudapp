@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "imran",
+      "username": "imran2024",
+      "email": "imran@gmail.com",
+      "phone": "098979876",
+      "website": "hsdlf.com"
+    },
+    {
+      "id": "2",
+      "name": "jamal",
+      "username": "jamal",
+      "email": "ajal@gmail.com",
+      "phone": "890",
+      "website": "23r"
+    },
+    {
+      "id": "3",
+      "name": "jamal",
+      "username": "jamal",
+      "email": "ajal@gmail.com",
+      "phone": "890",
+      "website": "23r"
+    },
+    {
+      "id": "4",
+      "name": "jamal",
+      "username": "jamal",
+      "email": "ajal@gmail.com",
+      "phone": "890",
+      "website": "23r"
+    }
+  ]
+}
