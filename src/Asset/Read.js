@@ -26,6 +26,9 @@ function Read(){
                 <div className="mb-2">
                     <strong>Website: {data.website}</strong>
                 </div>
+                <div className="mb-2">
+                    <strong>Picture: {data.pictureurl}</strong>
+                </div>
                 <Link to={`/update/${id}`} className="bg-indigo-400 p-1 m-1 rounded">Edit</Link>
                 <Link to='/' className="bg-indigo-400 p-1 m-1 rounded">Back</Link>
 

@@ -10,7 +10,8 @@ function Create(){
             username:'',
             email:'',
             phone:'',
-            website:''
+            website:'',
+            pictureurl:'',
         }
     )
     const handleSubmit=(event)=>{
@@ -46,6 +47,9 @@ function Create(){
                     <div className="mb-2">
                         <label >Website  </label>
                         <input type="text" name="website" onChange={e=>setValues({...values,website:e.target.value})} className="w-full rounded border block text-indigo-600 focus:ring-indigo-600 " placeholder="Enter website"/>
+                    </div>
+                    <div className="mb-2">
+                       <input type="file" name="file" onChange={e=>setValues({...values,pictureurl:URL.createObjectURL(e.target.files[0])})} className="w-full rounded border block text-indigo-600 focus:ring-indigo-600 " placeholder="Enter website"/>
                     </div>
                     <button onClick={handleSubmit} className="bg-indigo-600 rounded text-white m-3 p-1">Submit</button>
                     <Link to="/" className="bg-indigo-600 rounded text-white m-3 p-1">Back</Link>
